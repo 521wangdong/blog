@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>路由 React Router V5 | 前端</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="王冬的个人博客">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.0b1ac558.css" as="style"><link rel="preload" href="/blog/assets/js/app.b199bffd.js" as="script"><link rel="preload" href="/blog/assets/js/2.5239c051.js" as="script"><link rel="preload" href="/blog/assets/js/17.2a263d49.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.8711566b.js"><link rel="prefetch" href="/blog/assets/js/11.47db2a95.js"><link rel="prefetch" href="/blog/assets/js/12.97fcf21f.js"><link rel="prefetch" href="/blog/assets/js/13.185b2dd5.js"><link rel="prefetch" href="/blog/assets/js/14.a6e55d05.js"><link rel="prefetch" href="/blog/assets/js/15.7ade0bad.js"><link rel="prefetch" href="/blog/assets/js/16.ef875214.js"><link rel="prefetch" href="/blog/assets/js/18.55103cda.js"><link rel="prefetch" href="/blog/assets/js/19.a369c423.js"><link rel="prefetch" href="/blog/assets/js/20.fc252d8c.js"><link rel="prefetch" href="/blog/assets/js/3.835a6fd6.js"><link rel="prefetch" href="/blog/assets/js/4.c453bc54.js"><link rel="prefetch" href="/blog/assets/js/5.76fc70b2.js"><link rel="prefetch" href="/blog/assets/js/6.498ab014.js"><link rel="prefetch" href="/blog/assets/js/7.3822cadf.js"><link rel="prefetch" href="/blog/assets/js/8.53b6a155.js"><link rel="prefetch" href="/blog/assets/js/9.01deef7e.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.0b1ac558.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">前端</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/home/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/blog/react/" class="nav-link router-link-active">
+  React
+</a></div><div class="nav-item"><a href="/blog/vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/blog/js/" class="nav-link">
+  Js
+</a></div><div class="nav-item"><a href="/blog/typescript/" class="nav-link">
+  TypeScript
+</a></div><div class="nav-item"><a href="/blog/webpack/" class="nav-link">
+  Webpack
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/home/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/blog/react/" class="nav-link router-link-active">
+  React
+</a></div><div class="nav-item"><a href="/blog/vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/blog/js/" class="nav-link">
+  Js
+</a></div><div class="nav-item"><a href="/blog/typescript/" class="nav-link">
+  TypeScript
+</a></div><div class="nav-item"><a href="/blog/webpack/" class="nav-link">
+  Webpack
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/blog/react/" aria-current="page" class="sidebar-link">React</a></li><li><a href="/blog/react/React开发技巧.html" class="sidebar-link">React开发技巧</a></li><li><a href="/blog/react/ReactHooks.html" class="sidebar-link">React Hooks</a></li><li><a href="/blog/react/生命周期.html" class="sidebar-link">react 生命周期</a></li><li><a href="/blog/react/路由.html" class="active sidebar-link">路由 React Router V5</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/react/路由.html#安装" class="sidebar-link">安装</a></li><li class="sidebar-sub-header"><a href="/blog/react/路由.html#配置路由" class="sidebar-link">配置路由</a></li><li class="sidebar-sub-header"><a href="/blog/react/路由.html#通过链接跳转路由" class="sidebar-link">通过链接跳转路由</a></li><li class="sidebar-sub-header"><a href="/blog/react/路由.html#route-的匹配规则" class="sidebar-link">Route 的匹配规则</a></li><li class="sidebar-sub-header"><a href="/blog/react/路由.html#switch-组件" class="sidebar-link">Switch 组件</a></li><li class="sidebar-sub-header"><a href="/blog/react/路由.html#嵌套路由" class="sidebar-link">嵌套路由</a></li></ul></li><li><a href="/blog/react/组件封装.html" class="sidebar-link">react组件封装</a></li><li><a href="/blog/react/Dva.html" class="sidebar-link">Dva</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="路由-react-router-v5"><a href="#路由-react-router-v5" class="header-anchor">#</a> 路由 React Router V5</h1> <h2 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h2> <div class="language-js extra-class"><pre class="language-js"><code>yarn add react<span class="token operator">-</span>router<span class="token operator">-</span>dom
+</code></pre></div><h2 id="配置路由"><a href="#配置路由" class="header-anchor">#</a> 配置路由</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span>BrowserRouter<span class="token punctuation">,</span>Route<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;react-router-dom&quot;</span>
+</code></pre></div><p>BrowserRouter 组件是React Router的核心
+Route组件是React Router的具体配置</p> <p>栗子</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> BrowserRouter<span class="token punctuation">,</span> Route<span class="token punctuation">,</span> Link <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-router-dom'</span>
+
+<span class="token keyword">import</span> Home <span class="token keyword">from</span> <span class="token string">'./pages/home/index'</span>
+<span class="token keyword">import</span> Me <span class="token keyword">from</span> <span class="token string">'./pages/me/index'</span>
+
+<span class="token keyword">function</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>BrowserRouter<span class="token operator">&gt;</span>
+
+      <span class="token operator">&lt;</span>ul<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/&quot;</span><span class="token operator">&gt;</span>首页<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/me&quot;</span><span class="token operator">&gt;</span>我的<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>ul<span class="token operator">&gt;</span>
+
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/&quot;</span> exact component<span class="token operator">=</span><span class="token punctuation">{</span>Home<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>、
+      <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/me&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Me<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+
+    <span class="token operator">&lt;</span><span class="token operator">/</span>BrowserRouter<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> App
+</code></pre></div><p>在浏览器地址栏中输入 http://localhost:3000 的时候，React Router 会匹配到 <Route path="/" component="{Home}"></Route> 这一条记录，然后就会在当前位置渲染对应的component。</p> <p>React入口文件中(一般是index.js文件)，引入App.js文件并挂载到页面上</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span>
+<span class="token keyword">import</span> ReactDOM <span class="token keyword">from</span> <span class="token string">'react-dom'</span>
+<span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">'./App'</span>
+
+ReactDOM<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span>
+  <span class="token operator">&lt;</span>React<span class="token punctuation">.</span>StrictMode<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>App <span class="token operator">/</span><span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>React<span class="token punctuation">.</span>StrictMode<span class="token operator">&gt;</span><span class="token punctuation">,</span>
+  document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'root'</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+</code></pre></div><h2 id="通过链接跳转路由"><a href="#通过链接跳转路由" class="header-anchor">#</a> 通过链接跳转路由</h2> <p>引入 Link 这个组件即可</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>ul<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/&quot;</span><span class="token operator">&gt;</span>首页<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/me&quot;</span><span class="token operator">&gt;</span>我的<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>ul<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="route-的匹配规则"><a href="#route-的匹配规则" class="header-anchor">#</a> Route 的匹配规则</h2> <p>在对Route进行配置的时候，我们可以传以下参数：path、exact、component、render、children</p> <h3 id="五种route的配置方式"><a href="#五种route的配置方式" class="header-anchor">#</a> 五种Route的配置方式</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>Route component<span class="token operator">=</span><span class="token punctuation">{</span>Home<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+</code></pre></div><p>在配置Route的时候没有指定 path 属性，这时只要你打开项目，无论你访问什么路径，这个Route都会匹配到。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Home<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+</code></pre></div><p>配置Route的时候，指定 path=&quot;/&quot; ，和上面配置的效果一样，只要你打开项目，无论你访问什么路径，这个Route都会匹配到。这种配置方式我们成为 &quot;非严格匹配&quot; ，你在项目中访问的任何一个路径，里面都会包含path=&quot;/&quot; 的路径。所以无论访问什么路径，这个Route都会匹配到。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/&quot;</span> exact component<span class="token operator">=</span><span class="token punctuation">{</span>Home<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+</code></pre></div><p>和上面一条的配置方式不同，这里在配置Route的时候，传入了 exact 属性，说明这个配置方式是 &quot;严格匹配&quot; ，只有当我们访问项目的根路径的时候，才会匹配到这个Route。比如：localhost:3000/ 。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/me&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Me<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+</code></pre></div><p>常规的Route配置方式，当我们访问&quot;/me&quot;路径的时候，匹配到这个Route，进而渲染出对应的component。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/test&quot;</span> render<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>测试页面<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span> <span class="token punctuation">}</span><span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+</code></pre></div><p>这里没有component属性，而是换成了render属性。该属性是一个函数，当匹配到这个Route的时候，页面将会渲染出这个函数返回的内容</p> <h2 id="switch-组件"><a href="#switch-组件" class="header-anchor">#</a> Switch 组件</h2> <p>当进行路由匹配的时候，一旦匹配到了Switch组件中的一个Route，那么就不会再继续匹配
+使用场景: 如果当前路径没有匹配到任何Route的时候，路由跳转到 404 页面</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> BrowserRouter<span class="token punctuation">,</span> Route<span class="token punctuation">,</span> Link<span class="token punctuation">,</span> Switch <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-router-dom'</span>
+
+<span class="token keyword">import</span> Home <span class="token keyword">from</span> <span class="token string">'./pages/home/index'</span>
+<span class="token keyword">import</span> Me <span class="token keyword">from</span> <span class="token string">'./pages/me/index'</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">NotFound</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      找不到该页面
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>BrowserRouter<span class="token operator">&gt;</span>
+
+      <span class="token operator">&lt;</span>ul<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/&quot;</span><span class="token operator">&gt;</span>首页<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">&quot;/me&quot;</span><span class="token operator">&gt;</span>我的<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>ul<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>Switch<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/&quot;</span> exact component<span class="token operator">=</span><span class="token punctuation">{</span>Home<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/me&quot;</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Me<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">&quot;/test&quot;</span> render<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>测试页面<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span> <span class="token punctuation">}</span><span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>Route component<span class="token operator">=</span><span class="token punctuation">{</span>NotFound<span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>Switch<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>BrowserRouter<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> App
+</code></pre></div><h2 id="嵌套路由"><a href="#嵌套路由" class="header-anchor">#</a> 嵌套路由</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> Component <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Route<span class="token punctuation">,</span> Link <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-router-dom'</span>
+
+
+<span class="token keyword">const</span> <span class="token function-variable function">Vue</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      Vue
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">ReactTest</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      ReactTest
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">Me</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+      <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>ul<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span><span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token punctuation">{</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>match<span class="token punctuation">.</span>path<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">/vue</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">}</span><span class="token operator">&gt;</span>vue<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>li<span class="token operator">&gt;</span><span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token punctuation">{</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>match<span class="token punctuation">.</span>path<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">/react</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">}</span><span class="token operator">&gt;</span>react<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>ul<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token punctuation">{</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>match<span class="token punctuation">.</span>path<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">/vue</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">}</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Vue<span class="token punctuation">}</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+          <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token punctuation">{</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>match<span class="token punctuation">.</span>path<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">/react</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">}</span> component<span class="token operator">=</span><span class="token punctuation">{</span>ReactTest<span class="token punctuation">}</span><span class="token operator">&gt;</span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+    <span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/react/生命周期.html" class="prev">
+        react 生命周期
+      </a></span> <span class="next"><a href="/blog/react/组件封装.html">
+        react组件封装
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.b199bffd.js" defer></script><script src="/blog/assets/js/2.5239c051.js" defer></script><script src="/blog/assets/js/17.2a263d49.js" defer></script>
+  </body>
+</html>

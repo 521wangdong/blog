@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>React开发技巧 | 前端</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="王冬的个人博客">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.0b1ac558.css" as="style"><link rel="preload" href="/blog/assets/js/app.b199bffd.js" as="script"><link rel="preload" href="/blog/assets/js/2.5239c051.js" as="script"><link rel="preload" href="/blog/assets/js/13.185b2dd5.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.8711566b.js"><link rel="prefetch" href="/blog/assets/js/11.47db2a95.js"><link rel="prefetch" href="/blog/assets/js/12.97fcf21f.js"><link rel="prefetch" href="/blog/assets/js/14.a6e55d05.js"><link rel="prefetch" href="/blog/assets/js/15.7ade0bad.js"><link rel="prefetch" href="/blog/assets/js/16.ef875214.js"><link rel="prefetch" href="/blog/assets/js/17.2a263d49.js"><link rel="prefetch" href="/blog/assets/js/18.55103cda.js"><link rel="prefetch" href="/blog/assets/js/19.a369c423.js"><link rel="prefetch" href="/blog/assets/js/20.fc252d8c.js"><link rel="prefetch" href="/blog/assets/js/3.835a6fd6.js"><link rel="prefetch" href="/blog/assets/js/4.c453bc54.js"><link rel="prefetch" href="/blog/assets/js/5.76fc70b2.js"><link rel="prefetch" href="/blog/assets/js/6.498ab014.js"><link rel="prefetch" href="/blog/assets/js/7.3822cadf.js"><link rel="prefetch" href="/blog/assets/js/8.53b6a155.js"><link rel="prefetch" href="/blog/assets/js/9.01deef7e.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.0b1ac558.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">前端</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/home/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/blog/react/" class="nav-link router-link-active">
+  React
+</a></div><div class="nav-item"><a href="/blog/vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/blog/js/" class="nav-link">
+  Js
+</a></div><div class="nav-item"><a href="/blog/typescript/" class="nav-link">
+  TypeScript
+</a></div><div class="nav-item"><a href="/blog/webpack/" class="nav-link">
+  Webpack
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/home/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/blog/react/" class="nav-link router-link-active">
+  React
+</a></div><div class="nav-item"><a href="/blog/vue/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/blog/js/" class="nav-link">
+  Js
+</a></div><div class="nav-item"><a href="/blog/typescript/" class="nav-link">
+  TypeScript
+</a></div><div class="nav-item"><a href="/blog/webpack/" class="nav-link">
+  Webpack
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/blog/react/" aria-current="page" class="sidebar-link">React</a></li><li><a href="/blog/react/React开发技巧.html" class="active sidebar-link">React开发技巧</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/react/React开发技巧.html#constructor和super" class="sidebar-link">constructor和super</a></li><li class="sidebar-sub-header"><a href="/blog/react/React开发技巧.html#组件传值" class="sidebar-link">组件传值</a></li><li class="sidebar-sub-header"><a href="/blog/react/React开发技巧.html#样式写法" class="sidebar-link">样式写法</a></li></ul></li><li><a href="/blog/react/ReactHooks.html" class="sidebar-link">React Hooks</a></li><li><a href="/blog/react/生命周期.html" class="sidebar-link">react 生命周期</a></li><li><a href="/blog/react/路由.html" class="sidebar-link">路由 React Router V5</a></li><li><a href="/blog/react/组件封装.html" class="sidebar-link">react组件封装</a></li><li><a href="/blog/react/Dva.html" class="sidebar-link">Dva</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="react开发技巧"><a href="#react开发技巧" class="header-anchor">#</a> React开发技巧</h1> <h2 id="constructor和super"><a href="#constructor和super" class="header-anchor">#</a> constructor和super</h2> <p>每一个使用class方式定义的类默认都有一个constructor函数， 这个函数是构造函数的主函数， 该函数体内部的this指向生成的实例
+super关键字用于拿到父类的属性和方法</p> <p>子类必须在constructor方法中调用super方法，否则新建实例时会报错。这是因为子类自己的this对象，必须先通过父类的构造函数完成塑造，得到与父类同样的实例属性和方法，然后再对其进行加工，加上子类自己的实例属性和方法。如果不调用super方法，子类就得不到this对象。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">Couter</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+    <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">super</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>state <span class="token operator">=</span> <span class="token punctuation">{</span>
+            test<span class="token operator">:</span> '测试数据‘
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">(</span>
+            <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+                <span class="token punctuation">{</span>test<span class="token punctuation">}</span>
+            <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+        <span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="组件传值"><a href="#组件传值" class="header-anchor">#</a> 组件传值</h2> <h3 id="props"><a href="#props" class="header-anchor">#</a> props</h3> <p>传入多个props时升级写法</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">Child</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>props<span class="token punctuation">)</span><span class="token comment">//{num: 99, name: &quot;React&quot;}</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+        <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+            子组件
+        <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+    <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">Counter</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> <span class="token punctuation">[</span>num<span class="token punctuation">,</span> setNum<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">useState</span><span class="token punctuation">(</span><span class="token number">99</span><span class="token punctuation">)</span>
+    <span class="token keyword">const</span> <span class="token punctuation">[</span>name<span class="token punctuation">,</span> setName<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">useState</span><span class="token punctuation">(</span><span class="token string">&quot;React&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span>
+        <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+            父组件
+            <span class="token operator">&lt;</span>Child  <span class="token punctuation">{</span><span class="token operator">...</span><span class="token punctuation">{</span> num<span class="token punctuation">,</span> name <span class="token punctuation">}</span><span class="token punctuation">}</span> <span class="token operator">/</span><span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+    <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="样式写法"><a href="#样式写法" class="header-anchor">#</a> 样式写法</h2> <h3 id="css-modules"><a href="#css-modules" class="header-anchor">#</a> CSS Modules</h3> <p>React中编写CSS像Vue一样，有作用域的概念，组件的CSS只作用于相应的组件，并不会影响其他组件。
+在Counter.css文件中</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">.content</span> <span class="token punctuation">{</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token string">'pink'</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>在Counter.js文件中</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> Component <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> styles <span class="token keyword">from</span> <span class="token string">'./Counter.less'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token class-name">Counter</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+    <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">(</span>
+            <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+                Counter
+                <span class="token operator">&lt;</span>div className<span class="token operator">=</span><span class="token punctuation">{</span>styles<span class="token punctuation">.</span>content<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+                    中间区域
+                 <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+            <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+        <span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><h3 id="import-导入"><a href="#import-导入" class="header-anchor">#</a> import 导入</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token string">'./Counter.css'</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="内联方式"><a href="#内联方式" class="header-anchor">#</a> 内联方式</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>h3 style<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> color<span class="token operator">:</span> <span class="token string">'pink'</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>react<span class="token operator">&lt;</span><span class="token operator">/</span>h3<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span><span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="或者"><a href="#或者" class="header-anchor">#</a> 或者</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> h3Style <span class="token operator">=</span> <span class="token punctuation">{</span>
+  color<span class="token operator">:</span> <span class="token string">'pink'</span><span class="token punctuation">,</span>
+  backgroundColor<span class="token operator">:</span> <span class="token string">'green'</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">App</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+    <span class="token operator">&lt;</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>h3 style<span class="token operator">=</span><span class="token punctuation">{</span>h3Style<span class="token punctuation">}</span><span class="token operator">&gt;</span>react<span class="token operator">&lt;</span><span class="token operator">/</span>h3<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span><span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> App<span class="token punctuation">;</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/react/" class="prev router-link-active">
+        React
+      </a></span> <span class="next"><a href="/blog/react/ReactHooks.html">
+        React Hooks
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.b199bffd.js" defer></script><script src="/blog/assets/js/2.5239c051.js" defer></script><script src="/blog/assets/js/13.185b2dd5.js" defer></script>
+  </body>
+</html>
